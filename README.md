@@ -1,5 +1,6 @@
-Request data from https://swapi.co/api/people with ajax Jquery
+Aplication API
 ===========
+Request data from https://swapi.co/api/people with ajax Jquery
 
 (function($) {
 	var indexPeople = 1;
