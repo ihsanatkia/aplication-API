@@ -1,0 +1,239 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Global Style
+2.0 Header
+3.0 Content
+4.0 Footrt
+5.0 Contact Page Template
+--------------------------------------------------------------*/
+/* 1.0 GLOBAL STYLE
+-------------------------------------------------------------- */
+/* 2.0 HEADER
+-------------------------------------------------------------- */
+header {
+  background: #282828;
+  padding: 20px; }
+  @media screen and (min-width: 768px) {
+    header {
+      padding: 30px; } }
+  header img {
+    vertical-align: inherit; }
+    @media screen and (min-width: 768px) {
+      header img {
+        float: left; } }
+  @media screen and (min-width: 768px) {
+    header #biodata {
+      float: left;
+      margin-left: 20px; } }
+  header #biodata ul {
+    padding: 0px;
+    margin: 0px; }
+    header #biodata ul li {
+      list-style: none;
+      display: block;
+      color: #fff; }
+      header #biodata ul li label {
+        min-width: 70px; }
+      header #biodata ul li label, header #biodata ul li p {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: normal;
+        margin: 0px; }
+        @media screen and (min-width: 769px) {
+          header #biodata ul li label, header #biodata ul li p {
+            font-size: 12px; } }
+
+/* 3.0 CONTENT
+-------------------------------------------------------------- */
+body {
+  background: #f8f8f8;
+  position: relative;
+  height: 100vh; }
+  body .content h3.title {
+    color: #e83b2f;
+    text-transform: capitalize;
+    font-size: 20px; }
+  body .content a.seemore {
+    font-size: 12px;
+    color: #82d2dc;
+    text-transform: capitalize; }
+    @media screen and (min-width: 769px) {
+      body .content a.seemore {
+        position: absolute;
+        top: 0px;
+        right: 30px; } }
+  body .content section {
+    position: relative; }
+    @media screen and (min-width: 769px) {
+      body .content section {
+        padding-right: 30px; } }
+    body .content section ul.skywalker {
+      padding: 0px;
+      margin: 15px 0px 0px 0px;
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+      body .content section ul.skywalker li {
+        list-style: none;
+        display: inline-block;
+        background: #fff;
+        width: 25%;
+        margin: 0px 0px 20px 0px;
+        -webkit-box-shadow: 0px 0px 2px 0px #bdbdbd;
+        box-shadow: 0px 0px 2px 0px #bdbdbd; }
+        @media only screen and (max-width: 769px) {
+          body .content section ul.skywalker li {
+            width: 50%; } }
+        @media only screen and (max-width: 480px) {
+          body .content section ul.skywalker li {
+            width: 100%; } }
+        body .content section ul.skywalker li:last-child {
+          margin-right: 0px; }
+        body .content section ul.skywalker li h2 {
+          font-weight: bold;
+          margin-top: 0px;
+          padding: 0px 10px; }
+          @media screen and (min-width: 769px) {
+            body .content section ul.skywalker li h2 {
+              font-size: 14px;
+              height: 32px; } }
+        body .content section ul.skywalker li .video div {
+          margin-bottom: 20px;
+          padding: 0px 10px; }
+          @media screen and (min-width: 768px) {
+            body .content section ul.skywalker li .video div {
+              font-size: 14px;
+              line-height: 14px; } }
+          body .content section ul.skywalker li .video div label,
+          body .content section ul.skywalker li .video div span {
+            text-transform: capitalize;
+            display: block;
+            color: #888;
+            font-weight: normal; }
+        body .content section ul.skywalker li .video .top {
+          text-align: center;
+          background: #5b3587;
+          padding: 20px; }
+          body .content section ul.skywalker li .video .top.orange {
+            background: #e75b30; }
+          body .content section ul.skywalker li .video .top a {
+            font-size: 40px;
+            color: #fff;
+            font-weight: 300; }
+    @media screen and (max-width: 769px) {
+      body .content section nav {
+        text-align: center; } }
+    body .content section nav .pagination li {
+      background: none;
+      border: none;
+      display: inline-block; }
+      body .content section nav .pagination li a {
+        color: #fff;
+        background: #333;
+        border-radius: 25px;
+        line-height: 14px;
+        margin-right: 10px;
+        text-transform: capitalize;
+        font-weight: normal;
+        font-size: 16px;
+        padding: 14px 50px; }
+        @media screen and (min-width: 769px) {
+          body .content section nav .pagination li a {
+            font-size: 14px;
+            padding: 8px 30px; } }
+        body .content section nav .pagination li a:hover {
+          opacity: 0.5; }
+  body .content aside .awakens .top {
+    background: #333;
+    padding: 10px; }
+    @media screen and (max-width: 768px) {
+      body .content aside .awakens .top {
+        padding: 20px; } }
+    body .content aside .awakens .top h3 {
+      text-transform: capitalize;
+      color: #fff;
+      margin: 5px 0px; }
+      @media screen and (min-width: 769px) {
+        body .content aside .awakens .top h3 {
+          font-size: 14px; } }
+    body .content aside .awakens .top ul {
+      padding: 0px;
+      margin: 0px; }
+      body .content aside .awakens .top ul li {
+        list-style: none;
+        color: #fff; }
+        body .content aside .awakens .top ul li label {
+          min-width: 100px; }
+        body .content aside .awakens .top ul li label, body .content aside .awakens .top ul li p {
+          display: inline-block;
+          text-transform: capitalize;
+          font-weight: normal;
+          margin: 0px;
+          font-size: 14px;
+          line-height: 36px; }
+          @media screen and (min-width: 769px) {
+            body .content aside .awakens .top ul li label, body .content aside .awakens .top ul li p {
+              font-size: 12px;
+              line-height: 14px; } }
+  body .content aside .awakens .desc {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0px 0px 2px 0px #bdbdbd;
+    box-shadow: 0px 0px 2px 0px #bdbdbd; }
+    @media screen and (max-width: 768px) {
+      body .content aside .awakens .desc {
+        font-size: 20px;
+        line-height: 36px;
+        padding: 20px; } }
+    body .content aside .awakens .desc a {
+      display: block;
+      text-align: right;
+      color: #82d2dc;
+      margin-top: 20px; }
+
+/* 4.0 FOOTER
+-------------------------------------------------------------- */
+footer {
+  background: #333;
+  padding: 20px 0px;
+  border-radius: 0px;
+  margin-top: 50px; }
+  footer p {
+    color: #fff;
+    margin: 0px;
+    font-weight: normal; }
+    @media screen and (max-width: 768px) {
+      footer p {
+        font-size: 18px; } }
+  footer ul {
+    margin: 0px;
+    text-align: right; }
+    footer ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 0px; }
+      footer ul li a {
+        color: #fff;
+        margin: 0px;
+        font-weight: normal; }
+
+/* 5.0 CONTACT PAGE TEMPLATE
+-------------------------------------------------------------- */
+
+/*# sourceMappingURL=style-theme.css.map */

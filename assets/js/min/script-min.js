@@ -1,0 +1,1 @@
+$(document).on("ready",function(){console.log("ihsan"),$.ajax({url:"https://swapi.co/api/people/1",type:"GET",dataType:"JSON",sucsess:function(o){console.log(3)},error:function(o,n,e){console.log(e)}})});

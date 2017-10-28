@@ -1,0 +1,42 @@
+header {
+	background: #282828;
+	padding: 20px;
+	@media screen and (min-width: 768px) {
+		padding: 30px;
+	}
+
+	img {
+		vertical-align: inherit;
+		@media screen and (min-width: 768px) {
+			float: left;
+		}
+	}
+	#biodata {
+		@media screen and (min-width: 768px) {
+			float: left;
+			margin-left: 20px;
+		}
+
+		ul {
+			padding: 0px;
+			margin: 0px;
+			li{
+				list-style: none;
+				display: block;
+				color: #fff;
+				label {
+					min-width: 70px;
+				}
+				label,p{
+					display: inline-block;
+					font-size: 20px;
+					font-weight: normal;
+					margin: 0px;
+					@media screen and (min-width: 769px) {
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+}

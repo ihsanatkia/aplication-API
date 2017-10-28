@@ -1,0 +1,221 @@
+body {
+	background: #f8f8f8;
+	position: relative;
+	height: 100vh;
+
+	.content {
+		h3.title {
+			color: #e83b2f;
+			text-transform: capitalize;
+			font-size: 20px;
+		}
+		a.seemore {
+			font-size: 12px;
+			color: #82d2dc;
+			text-transform: capitalize;
+
+			@media screen and (min-width: 769px) {
+				position: absolute;
+				top: 0px;
+				right: 30px;
+			}
+		}
+		// section
+		section {
+			position: relative;
+			@media screen and (min-width: 769px) {
+				padding-right: 30px;
+			}
+			ul.skywalker{
+				padding: 0px;
+				margin: 15px 0px 0px 0px;
+				position: relative;
+				display: flex;
+				flex-direction: row;
+    			flex-wrap: wrap;
+    			justify-content: flex-start;
+
+				li{
+					list-style: none;
+					display: inline-block;
+					background: #fff;
+					width: 25%;
+					margin: 0px 0px 20px 0px;
+					// margin: 0px 20px 20px 0px;
+					-webkit-box-shadow: 0px 0px 2px 0px rgba(189,189,189,1);
+					-moz-box-shadow: 0px 0px 2px 0px rgba(189,189,189,1);
+					box-shadow: 0px 0px 2px 0px rgba(189,189,189,1);
+					
+					@media only screen and (max-width: 769px) {
+						width: 50%;
+					}
+					@media only screen and (max-width: 480px) {
+						width: 100%;
+					}
+					
+					// &:nth-of-type(4) {
+					// 	margin: 0px;
+					// }
+					// &:nth-of-type(5) {
+					// 	clear: both;
+					// }
+
+					> div {
+
+					}
+					&:last-child {
+						margin-right: 0px;
+					}
+
+					h2 {
+						font-weight: bold;
+						margin-top: 0px;
+						padding: 0px 10px;
+						@media screen and (min-width: 769px) {
+							font-size: 14px;
+							height: 32px;
+						}
+					}
+
+					.video {
+						div {
+							margin-bottom: 20px;
+							padding: 0px 10px;
+							@media screen and(min-width: 768px) {
+								font-size: 14px;
+								line-height: 14px;
+							}
+
+							label,
+							span { 
+								text-transform: capitalize;
+								display: block;
+								color: #888;
+								font-weight: normal;
+							}
+						}
+
+						.top {
+							text-align: center;
+							background: #5b3587;
+							padding: 20px;
+
+							&.orange {
+								background: #e75b30;
+							}
+							a {
+								font-size: 40px;
+								color: #fff;
+								font-weight: 300;
+							}
+						}
+					}
+				}
+			}
+
+			//pagination
+			nav {
+
+				@media screen and (max-width: 769px) {
+					text-align: center;
+					}
+				.pagination {
+					li {
+						background: none;
+						border: none;
+						display: inline-block;
+						a {
+							color: #fff;
+							background: #333;
+							border-radius: 25px;
+							line-height: 14px;
+							margin-right: 10px;
+							text-transform: capitalize;
+							font-weight: normal;
+							font-size: 16px;
+							padding: 14px 50px;
+
+							@media screen and (min-width: 769px ) {
+								font-size: 14px;
+								padding: 8px 30px;
+							}
+							&:hover {
+								opacity: 0.5;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		// aside
+		aside {
+			.awakens {
+
+				.top {
+					background: #333;
+					padding: 10px;
+					@media screen and (max-width: 768px) {
+						padding: 20px;
+					}
+					
+					h3 {
+						text-transform: capitalize;
+						color: #fff;
+						margin: 5px 0px;
+
+						@media screen and (min-width: 769px) {
+							font-size: 14px;
+						}
+					}
+					ul {
+						padding: 0px;
+						margin: 0px;
+						li {
+							list-style: none;
+							color: #fff;
+
+							label {
+								min-width: 100px;
+							}
+							label,p {
+								display: inline-block;
+								text-transform: capitalize;
+								font-weight:  normal;
+								margin: 0px;
+								font-size: 14px;
+								line-height: 36px;
+								@media screen and (min-width: 769px) {
+									font-size: 12px;
+									line-height: 14px;
+								}
+							}
+						}
+					}
+				}
+				.desc {
+					padding: 10px;
+					background: #fff;
+					border: 1px solid #eee;		
+					-webkit-box-shadow: 0px 0px 2px 0px rgba(189,189,189,1);
+					-moz-box-shadow: 0px 0px 2px 0px rgba(189,189,189,1);
+					box-shadow: 0px 0px 2px 0px rgba(189,189,189,1);
+					@media screen and (max-width: 768px) {
+						font-size: 20px;
+						line-height: 36px;
+						padding: 20px;
+					}
+					a {
+						display: block;
+						text-align: right;
+						color: #82d2dc;
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
