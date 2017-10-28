@@ -2,6 +2,7 @@ Aplication API
 ===========
 Request data from https://swapi.co/api/people with ajax Jquery
 
+<script>
 (function($) {
 	var indexPeople = 1;
 	var maxPeople	= 87;
@@ -85,3 +86,4 @@ Request data from https://swapi.co/api/people with ajax Jquery
 		loadData( indexPeople );
 	});
 })(jQuery);
+</script>
